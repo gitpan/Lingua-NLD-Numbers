@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution Lingua-NLD-Numbers,
-version 0.044:
+version 0.0577:
 
-  PetaMem release, this module converts numeric values into their Dutch equivalents.
+  Numbers 2 word conversion in NLD.
 
-This software is copyright (c) 2012 by Alistair Francis.
+This software is copyright (c) 2013 by Alistair Francis.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

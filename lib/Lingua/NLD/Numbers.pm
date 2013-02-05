@@ -1,7 +1,7 @@
 # For Emacs: -*- mode:cperl; mode:folding -*-
 
 package Lingua::NLD::Numbers;
-# ABSTRACT: PetaMem release, this module converts numeric values into their Dutch equivalents.
+# ABSTRACT: Numbers 2 word conversion in NLD.
 
 # {{{ use block
 
@@ -13,8 +13,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 
 my $numbers = {
         0       =>      'nul',
@@ -251,11 +250,14 @@ Lingua::NLD::Numbers
 
 =head1 VERSION
 
-version 0.044
+version 0.0577
 
 =head1 DESCRIPTION
 
-PetaMem release, this module converts numeric values into their Dutch equivalents.
+Numbers 2 word conversion in NLD.
+
+This is PetaMem release. Lingua::NLD::Numbers converts
+numeric values into their Dutch equivalents.
 
 =head1 SYNOPSIS
 
